@@ -473,7 +473,7 @@ export default function ElectricalForm() {
                     </h2>
                   </div>
                   <span className="text-xs font-medium text-slate-400 bg-slate-900/50 px-2.5 py-1 rounded-full border border-white/10">
-                    12 Parameters
+                    13 Parameters
                   </span>
                 </div>
 
