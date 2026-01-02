@@ -31,6 +31,9 @@ export default function ElectricalForm() {
     pump: "",
     prep: "",
     wbsedcl_unit: "",
+    Pulverizer_Mega: "",
+    Pulverizer_Oils:"",
+    Boiler_12_Ton:"",
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -140,6 +143,10 @@ export default function ElectricalForm() {
         pump: formData.pump,
         prep: formData.prep,
         wbsedcl_unit: formData.wbsedcl_unit,
+        Pulverizer_Mega: formData.Pulverizer_Mega,
+        Pulverizer_Oils: formData.Pulverizer_Oils,
+        Boiler_12_Ton: formData.Boiler_12_Ton
+
       },
       timestamp: new Date().toISOString(),
     };
@@ -195,6 +202,9 @@ export default function ElectricalForm() {
       pump: "",
       prep: "",
       wbsedcl_unit: "",
+      Pulverizer_Mega: "",
+      Pulverizer_Oils: "",
+      Boiler_12_Ton: ""
     });
     setDateError("");
   };
@@ -210,6 +220,9 @@ export default function ElectricalForm() {
     { name: "pump", label: "PUMP" },
     { name: "prep", label: "PREP" },
     { name: "wbsedcl_unit", label: "WBSEDCL_Unit" },
+    { name: "Pulverizer_Mega", label: "Pulverizer_Mega" },
+    { name: "Pulverizer_Oils", label: "Pulverizer_Oils" },
+    { name: "Boiler_12_Ton", label: "Boiler_12_Ton" },
   ];
 
   return (
@@ -460,7 +473,7 @@ export default function ElectricalForm() {
                     </h2>
                   </div>
                   <span className="text-xs font-medium text-slate-400 bg-slate-900/50 px-2.5 py-1 rounded-full border border-white/10">
-                    10 Parameters
+                    12 Parameters
                   </span>
                 </div>
 
